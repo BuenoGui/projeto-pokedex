@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Pokedex</title>
+
+    <link
+      rel="shortcut icon"
+      href="src/imagens/pokebola.png"
+      type="image/x-icon"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img
+        src="src/imagens/pokebola.png"
+        alt="pokebola(oque é a imagem)"
+        class="pokebola"
+      />
+      <h1>Pokedex Pequena</h1>
+    </header>
+
+    <main class="pokemon-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="src/imagens/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="lista-pokemons">
+        <li class="cartao selecionado fundo-1">
+          <div class="informacoes">
+            <h2 class="nome">Pikachu</h2>
+            <p class="vida">HP 300</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/pikachu.png"
+              alt="pikachu"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="lore">
+              Pikachu é um tipo de Pokémon elétrico: os bolsos em suas
+              bochechas, identificado por discos vermelhos que decoram, são
+              capazes de gerar choques elétricos de intensidade variável,
+              chegando até o nível de poder de um raio. Eles também o usam para
+              se defender.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-2">
+          <div class="informacoes">
+            <h2 class="nome">Charizard</h2>
+            <p class="vida">HP 900</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/charizard.png"
+              alt="charizard"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="lore">
+              Charizard é um Pokémon do tipo Fogo e Voador introduzido na
+              Geração I. Charizar . Um dos pokemóns mais temidos da região.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-3">
+          <div class="informacoes">
+            <h2 class="nome">Mew Two</h2>
+            <p class="vida">HP 1200</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/mewtwo.png"
+              alt="Mew Two"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="lore">
+              Mewtwo o pokémon genético, o pokémon que foi clonado geneticamente
+              do Mew, o poder sientifico dos humanos não conseguiu dar a ele um
+              coração compassivo, geralmente permanece imóvel para conservar
+              suas energias, de forma que possa liberar seu poder total em
+              batalha.
+            </p>
+          </div>
+        </li>
+
+        <li class="cartao fundo-9">
+          <div class="informacoes">
+            <h2 class="nome">Mew</h2>
+            <p class="vida">HP 700</p>
+          </div>
+
+          <div class="container-imagem">
+            <img
+              src="src/imagens/mew.png"
+              alt="Mew Two"
+              class="imagem-pokemon"
+            />
+          </div>
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="lore">
+              Mew é um Pokémon muito curioso e fofo que pode se transformar em
+              qualquer outro tipo de Pokémon. Mew é um Pokémon de tipo psíquico
+              e Mewtwo é o seu clone. Mew aparece em Pokémon o filme: Mewtwo
+              Contra ataca, na primeira geração de Pokémon e na sétima geração.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <button class="btn-seta" id="btn-avancar">
+        <img src="src/imagens/seta.png" alt="seta de avanço" />
+      </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+  </body>
+</html>
